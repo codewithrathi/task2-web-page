@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*
+{
+    color: black;
+}
+
+.up-side
+{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #cfe7ef;
+}
+
+.option
+{
+    display: flex;
+    align-items:  center;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.dropdown
+{
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #003459;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  margin: 10px;
+}
+
+select
+{
+  font-weight: 400;
+  border: 2px solid #00A8E8;
+  border-radius: 5px;
+  height: 30px;
+  color: gray;
+}
+
+label{
+  color: white;
+}
+
+.Box
+{
+  margin-left: auto;
+}
+
+.mid
+{
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.table
+{
+  position: absolute;
+  padding: 10px;
+}
+
+.title
+{
+  font-weight: 700;
+}
+
+.Box1
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}

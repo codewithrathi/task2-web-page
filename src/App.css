@@ -1,0 +1,10 @@
+*
+{
+    color: black;
+}
+
+.option
+{
+    display: flex;
+    flex-direction: row;
+}
