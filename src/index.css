@@ -31,22 +31,22 @@ code {
 .option
 {
     display: flex;
-    align-items:  center;
     flex-direction: row;
     padding: 10px;
     margin: 10px;
     justify-content: center;
+    height: 140px;
 }
 
+option
+{
+  background-color: #003459;
+  color: white;
+}
+  
 .dropdown
 {
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color: #003459;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100px;
+  width: 175px;
   margin: 10px;
 }
 
@@ -56,11 +56,11 @@ select
   border: 2px solid #00A8E8;
   border-radius: 5px;
   height: 30px;
-  color: gray;
 }
 
-label{
-  color: white;
+select:invalid 
+{ 
+  color: gray; 
 }
 
 .Box

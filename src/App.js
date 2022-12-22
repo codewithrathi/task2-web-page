@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
 import Box from '@mui/material/Box';
-import Stepper from '@mui/material/Stepper';
-import Step from '@mui/material/Step';
-import StepLabel from '@mui/material/StepLabel';
 import Button from '@mui/material/Button';
 
 function App()
@@ -62,41 +59,32 @@ function App()
           <div className='up-side'>
             <h4>Test Policy</h4>
             <div className='option'>
-
-                <div className='dropdown'>
-                    <select name='test_type' value = {select1} onChange={e => setselect1(e.target.value)}>
-                        <option>Select-Test-Type</option>
+          
+                    <select className="dropdown" name='test_type' value = {select1} onChange={e => setselect1(e.target.value)}>
+                        <option value="" disabled selected hidden>Select-Test-Type</option>
                         <option>Checking Permission</option>
                         <option>Checking Login</option>
                         <option>Checking Log out</option>
                         <option>Checking Entry</option>
                     </select>
-                    <label>{select1}</label>
-                </div>
-
-                <div className='dropdown'>
-                    <select name='UA_id' value = {select2} onChange={e => setselect2(e.target.value)}>
-                        <option>Select-UA_id</option>
+                   
+                    <select className="dropdown" name='UA_id' value = {select2} onChange={e => setselect2(e.target.value)}>
+                        <option value="" disabled selected hidden>Select-UA_id</option>
                         <option>1234</option>
                         <option>2345</option>
                         <option>3456</option>
                         <option>4567</option>
                     </select>
-                    <label>{select2}</label>
-                </div>
-
-                <div className='dropdown'>
-                <select name='target_id' value = {select3} onChange={e => setselect3(e.target.value)}>
-                    <option>Select-Target_id</option>
+                 
+                <select className="dropdown" name='target_id' value = {select3} onChange={e => setselect3(e.target.value)}>
+                    <option value="" disabled selected hidden>Select-Target_id</option>
                     <option>key</option>
                     <option>webpage</option>
                     <option>mobile</option>
                     <option>url</option>
                 </select>
-                <label>{select3}</label>
                 </div>
-            </div>
-
+        
             <div className="Box">
             <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
           
